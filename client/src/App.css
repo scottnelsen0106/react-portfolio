@@ -1,12 +1,54 @@
-.navColor {
-  background-color: #adadad;
+.nav-color {
+  background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.linkColor {
-  color: #eeeeee;
-  text-decoration: underline;
+.Landing-grid {
+  background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+text-align: center;
+
 }
 
-.linkColor:hover {
-  color: #b39700;
+.portfolio-image {
+  height: 250px;
+ 
+  margin-top: 5em;
+  
+  border-radius: 10%;
+}
+
+.about-me-text {
+  background-color: #2c3e50;
+  border-radius: 20px;
+  width: 75%;
+  color: #bdc3c7;
+  text-align: center;
+  margin: auto;
+}
+
+.about-me-text h1 {
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.about-me-text p {
+  font-size: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.icons i {
+  color: white;
+  font-size: 5em;
+  padding: 5px;
 }
