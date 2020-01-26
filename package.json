@@ -1,0 +1,24 @@
+{
+  "name": "react-portfoilo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottnelsen0106/react-portfo-io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottnelsen0106/react-portfo-io/issues"
+  },
+  "homepage": "https://github.com/scottnelsen0106/react-portfo-io#readme"
+}
